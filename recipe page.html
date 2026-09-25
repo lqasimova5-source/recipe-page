@@ -3,63 +3,211 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="A modern and responsive omelette recipe page built with HTML and CSS."
+  >
+
   <title>Simple Omelette Recipe</title>
+
   <link rel="stylesheet" href="recipe page.css">
 </head>
+  
 <body>
+  
+  <main class="recipe-container">
+    
+    <div class="image-wrapper">
+      
+      <img
+        src="recipe.png"
+        alt="Freshly cooked omelette served on a plate"
+        class="hero-image"
+      >
+    </div>
 
-  <main class="card">
-    <img src="recipe.png" alt="Omelette" class="hero-img">
+    <header class="recipe-header">
 
-    <h1>Simple Omelette Recipe</h1>
-    <p class="description">
-      An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
-      to perfection, optionally filled with your choice of cheese, vegetables, or meats.
-    </p>
+      <span class="category">Breakfast</span>
 
-    <section class="prep-time">
-      <h3>Preparation time</h3>
-      <ul>
-        <li><b>Total:</b> Approximately 10 minutes</li>
-        <li><b>Preparation:</b> 5 minutes</li>
-        <li><b>Cooking:</b> 5 minutes</li>
-      </ul>
+      <h1>Simple Omelette Recipe</h1>
+
+      <p class="description">
+        A quick and delicious classic omelette made with simple ingredients.
+        Perfect for breakfast, lunch, or a light dinner.
+      </p>
+
+    </header>
+
+    <section class="recipe-info" aria-label="Recipe information">
+
+      <div class="info-card">
+        <span class="info-label">Prep Time</span>
+        <strong>5 min</strong>
+      </div>
+
+      <div class="info-card">
+        <span class="info-label">Cook Time</span>
+        <strong>5 min</strong>
+      </div>
+
+      <div class="info-card">
+        <span class="info-label">Total Time</span>
+        <strong>10 min</strong>
+      </div>
+
+      <div class="info-card">
+        <span class="info-label">Servings</span>
+        <strong>1</strong>
+      </div>
+
     </section>
 
-    <section>
+    <section class="section">
+
       <h2>Ingredients</h2>
-      <ul class="list">
-        <li>2-3 large eggs</li>
+
+      <p class="section-description">
+        Everything you need to prepare a simple and flavorful omelette.
+      </p>
+
+      <ul class="ingredients-list">
+        <li>2–3 large eggs</li>
         <li>Salt, to taste</li>
-        <li>Pepper, to taste</li>
-        <li>1 tablespoon of butter or oil</li>
-        <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+        <li>Freshly ground black pepper</li>
+        <li>1 tablespoon butter or olive oil</li>
+        <li>¼ cup grated cheese <span>(optional)</span></li>
+        <li>Chopped vegetables <span>(optional)</span></li>
+        <li>Fresh herbs <span>(optional)</span></li>
       </ul>
+
     </section>
 
-    <section>
+    <section class="section">
+
       <h2>Instructions</h2>
-      <ol class="list">
-        <li><b>Beat the eggs:</b> Beat the eggs with a pinch of salt and pepper until well mixed.</li>
-        <li><b>Heat the pan:</b> Place a pan over medium heat and add butter or oil.</li>
-        <li><b>Cook the omelette:</b> Pour the mixture into the pan. Tilt to spread evenly.</li>
-        <li><b>Add fillings (optional):</b> When edges are set, add your chosen fillings.</li>
-        <li><b>Fold and serve:</b> Fold the omelette carefully and cook 1 minute more.</li>
-        <li><b>Enjoy!</b> Serve hot with salt & pepper if needed.</li>
+
+      <ol class="instructions-list">
+
+        <li>
+          <div>
+            <h3>Prepare the eggs</h3>
+            <p>
+              Crack the eggs into a bowl. Add salt and pepper,
+              then whisk until the mixture is smooth and well combined.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <h3>Heat the pan</h3>
+            <p>
+              Place a non-stick frying pan over medium heat.
+              Add the butter or olive oil and allow it to heat gently.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <h3>Cook the omelette</h3>
+            <p>
+              Pour the egg mixture into the pan and gently tilt the pan
+              so the eggs spread evenly across the surface.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <h3>Add the fillings</h3>
+            <p>
+              When the eggs begin to set, add cheese, vegetables,
+              herbs, or your preferred fillings to one side.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <h3>Fold and finish</h3>
+            <p>
+              Carefully fold the omelette in half and cook
+              for another minute until the inside is fully set.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <h3>Serve</h3>
+            <p>
+              Transfer the omelette to a plate and serve immediately.
+              Add fresh herbs or additional seasoning if desired.
+            </p>
+          </div>
+        </li>
+
       </ol>
+
     </section>
 
-    <section>
+    <aside class="tip-box">
+
+      <h2>Chef's Tip</h2>
+
+      <p>
+        Cook the omelette over medium heat rather than high heat.
+        This helps keep the eggs soft and prevents the outside
+        from browning too quickly.
+      </p>
+
+    </aside>
+
+    <section class="section">
+
       <h2>Nutrition</h2>
-      <p>The table below shows nutritional values without additional fillings.</p>
 
-      <table>
-        <tr><td>Calories</td><td class="value">277kcal</td></tr>
-        <tr><td>Carbs</td><td class="value">0g</td></tr>
-        <tr><td>Protein</td><td class="value">20g</td></tr>
-        <tr><td>Fat</td><td class="value">22g</td></tr>
-      </table>
+      <p class="section-description">
+        Approximate nutritional values for a basic omelette
+        without additional fillings.
+      </p>
+
+      <div class="nutrition-grid">
+
+        <div class="nutrition-item">
+          <span>Calories</span>
+          <strong>277 kcal</strong>
+        </div>
+
+        <div class="nutrition-item">
+          <span>Protein</span>
+          <strong>20 g</strong>
+        </div>
+
+        <div class="nutrition-item">
+          <span>Fat</span>
+          <strong>22 g</strong>
+        </div>
+
+        <div class="nutrition-item">
+          <span>Carbohydrates</span>
+          <strong>1 g</strong>
+        </div>
+
+      </div>
+
     </section>
+
+    <footer class="recipe-footer">
+
+      <p>
+        Built with HTML & CSS as part of my front-end development journey.
+      </p>
+
+    </footer>
 
   </main>
 
