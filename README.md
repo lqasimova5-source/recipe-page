@@ -1,10 +1,21 @@
 # Recipe Page
 
-A simple recipe webpage created while learning the fundamentals of front-end development.
+A modern and responsive recipe webpage built with HTML and CSS.
 
-## About
+The project presents a simple omelette recipe with preparation details, ingredients, step-by-step instructions, cooking tips, and nutritional information.
 
-The page presents a simple omelette recipe with preparation time, ingredients, instructions, and nutritional information.
+## Features
+
+- Responsive design for desktop, tablet, and mobile
+- Modern card-based layout
+- Recipe preparation information
+- Structured ingredients section
+- Step-by-step cooking instructions
+- Nutrition information
+- Chef's tip section
+- Accessible and semantic HTML
+- Responsive CSS with media queries
+- Subtle hover and transition effects
 
 ## Built With
 
@@ -13,12 +24,24 @@ The page presents a simple omelette recipe with preparation time, ingredients, i
 
 ## What I Practiced
 
+Through this project, I practiced:
+
 - Semantic HTML structure
-- CSS styling
-- Lists and tables
+- Responsive web design
+- CSS Grid and Flexbox
+- Media queries
 - Typography and spacing
-- Basic responsive design
+- Accessible markup
+- Reusable UI sections
+- Modern CSS styling
 
-## Learning Journey
+## Project Purpose
 
-This is one of my early front-end projects and represents my progress while learning software development.
+This project was created to strengthen my front-end development fundamentals and practice building a clean, responsive, and user-friendly interface.
+
+## Future Improvements
+
+- Add JavaScript interactions
+- Add more recipes
+- Add dark mode
+- Add recipe search and filtering
