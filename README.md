@@ -17,6 +17,12 @@ The project presents a simple omelette recipe with preparation details, ingredie
 - Responsive CSS with media queries
 - Subtle hover and transition effects
 
+
+## Live Demo
+
+[View the live website](https://recipe-page-sand-mu-95.vercel.app/)
+
+
 ## Built With
 
 - HTML5
